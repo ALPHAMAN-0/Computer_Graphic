@@ -1,0 +1,43 @@
+First 5 plotted points of some algorithm runs
+
+Bresenham - Footpath left edge
+  k=0  p=30  -> pixel (470, 0)
+  k=1  p=-110  -> pixel (471, 1)
+  k=2  p=90  -> pixel (471, 2)
+  k=3  p=-50  -> pixel (472, 3)
+  k=4  p=150  -> pixel (472, 4)
+
+Midpoint Circle - Arch on the middle pillar
+  k=0  (x=0, y=25)  p=-24  -> pixel (640, 470)
+  k=1  (x=1, y=25)  p=-21  -> pixel (641, 470)
+  k=2  (x=2, y=25)  p=-16  -> pixel (642, 470)
+  k=3  (x=3, y=25)  p=-9  -> pixel (643, 470)
+  k=4  (x=4, y=25)  p=0  -> pixel (644, 470)
+
+DDA - Flower stem
+  k=0  x=450.00  y=55.00  -> pixel (450, 55)
+  k=1  x=450.15  y=56.00  -> pixel (450, 56)
+  k=2  x=450.30  y=57.00  -> pixel (450, 57)
+  k=3  x=450.45  y=58.00  -> pixel (450, 58)
+  k=4  x=450.60  y=59.00  -> pixel (451, 59)
+
+DDA - Flagpole
+  k=0  x=110.00  y=140.00  -> pixel (110, 140)
+  k=1  x=110.00  y=141.00  -> pixel (110, 141)
+  k=2  x=110.00  y=142.00  -> pixel (110, 142)
+  k=3  x=110.00  y=143.00  -> pixel (110, 143)
+  k=4  x=110.00  y=144.00  -> pixel (110, 144)
+
+Midpoint Circle - Red sun of the flag
+  k=0  (x=0, y=40)  p=-39  -> pixel (204, 472)
+  k=1  (x=1, y=40)  p=-36  -> pixel (205, 472)
+  k=2  (x=2, y=40)  p=-31  -> pixel (206, 472)
+  k=3  (x=3, y=40)  p=-24  -> pixel (207, 472)
+  k=4  (x=4, y=40)  p=-15  -> pixel (208, 472)
+
+Bresenham - Flag frame (bottom edge)
+  k=0  p=-200  -> pixel (114, 372)
+  k=1  p=-200  -> pixel (115, 372)
+  k=2  p=-200  -> pixel (116, 372)
+  k=3  p=-200  -> pixel (117, 372)
+  k=4  p=-200  -> pixel (118, 372)
